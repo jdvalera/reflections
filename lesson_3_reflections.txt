@@ -18,3 +18,8 @@ Branches: Create a new branch of commits independent of another branch unless me
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It lets you compare your local repository with the remote repository that you pulled or cloned.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+We would all have to make different manual versions of our program and somehow compare our changes to each other's code. This would be harder than comparing through git and merging with git. We can also do this remotely easily.
