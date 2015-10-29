@@ -23,3 +23,8 @@ It lets you compare your local repository with the remote repository that you pu
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 We would all have to make different manual versions of our program and somehow compare our changes to each other's code. This would be harder than comparing through git and merging with git. We can also do this remotely easily.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You do not want to possibly break already working code while updating a feature of the program. It also allows you to make a pull request on GitHub so that your collaborators can review your changes without it changing the master. Making a change directly to master is faster and more convenient but you can possibly break the program and when you push the new commit no one else can review the code before it gets merged.
